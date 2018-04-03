@@ -9,6 +9,14 @@ ng create generate component home
 # Create a service
 # ng generate service data
 
-
 # distribution (--prod files are significantly smaller)
 ng build --prod
+
+# github pages 
+npm install -g angular-cli-ghpages 
+
+# Deploy to ghpages
+npm install -g angular-cli-ghpages
+ng build --prod --base-href="https://stugit.github.io/ng5/"
+angular-cli-ghpages
+
