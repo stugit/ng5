@@ -1,0 +1,4 @@
+# Install Angular 5 globally
+npm install @angular/cli -g 
+ng -v
+
