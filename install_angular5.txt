@@ -2,3 +2,13 @@
 npm install @angular/cli -g 
 ng -v
 
+# Create components
+ng create generate component about
+ng create generate component home
+
+# Create a service
+# ng generate service data
+
+
+# distribution (--prod files are significantly smaller)
+ng build --prod
